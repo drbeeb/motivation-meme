@@ -1,11 +1,9 @@
 body{
     font-family: 'Libre Baskerville', serif;  
     position: relative;
-    background-image: url(../images/black-girl-bgr.jpg);
-    background-size: 200vh 200vh;
-    background-repeat: repeat;
+    background-color: #4C3D3D ;
     
-    margin-top: 100px;
+    margin-top: 50px;
 
 }
 p{
