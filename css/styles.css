@@ -1,0 +1,299 @@
+body{
+    font-family: 'Libre Baskerville', serif;  
+    position: relative;
+    background-image: url(../images/black-girl-bgr.jpg);
+    background-size: 200vh 200vh;
+    background-repeat: repeat;
+    
+    margin-top: 100px;
+
+}
+p{
+    line-height: 2;
+}
+hr{
+    background-color: #f91111;
+    height: 1px;
+    border: none;
+}
+h3, h5{
+    color: #f91111;
+
+}
+
+h3.prec{
+    color: #000;
+
+}
+
+.line-text {
+    width: 30%;
+    margin-left: 0;
+}
+
+#nav-bar {
+    text-align: center;
+    margin: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 20px;
+    background-color: #fff;
+}
+a {
+    text-decoration: none;
+    margin: 20px;
+}
+a:hover {
+    color: firebrick;
+}
+
+
+
+h1{
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    
+}
+h2{
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #fff;
+}
+#Heading2{
+    color: #f91111;
+    font-size: 1em;
+}
+
+img{
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 90%; 
+}
+
+#head{
+    color: white;
+    margin: 50px ;
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#Head-mid-end{
+    position: relative;
+    height: 500px; 
+    margin: 20px;   
+
+}
+
+
+#motivation1-3-img{
+    width: 45%;
+    text-align: center; 
+    margin-top: 100px;
+    color: white;
+    position: absolute;
+    top: 0;
+
+    
+}
+.motivation2-4-img{
+    margin-top: 100px;
+    position: absolute; 
+    width: 45%;
+    text-align: center; 
+    right: 0;
+    color: white;
+}
+
+#motivation5-7-img{
+    position: absolute; 
+    width: 30%;
+    text-align: center; 
+    color: white;
+    margin-top: 120px;
+    height: 447px;
+
+}
+#motivation6-img{
+    position: absolute; 
+    width: 39%;
+    text-align: center; 
+    left: 30%;
+    color: white;
+    margin-top: 100px;
+    height: 323px;
+   
+}
+.motivation7-img{
+    right: 0;
+  
+}
+    
+.heading2{
+    text-align: center;
+    height: 100px;
+}
+
+.float{
+    position: absolute;
+
+    
+}
+#Head-mid-end > .float > img{
+    height: 150px;
+    width: 23%;
+    display: inline-block;
+  
+}
+#Head-mid-end > .float > .right-img{
+    float: right;
+}
+#Head-mid-end > .float > p{
+    text-align: center;
+    width: 40%;
+    padding-left: 57px;
+    display: inline-block;
+    color: #fff;
+}
+
+
+/** Portfolio page css **/
+#Header{
+  text-align: center;
+}
+#Header > h1{
+    text-align: center;
+    display: inline-block;
+}
+#Header > img {
+    width: 40%;
+    height: 300px;
+}
+
+
+
+
+/** My Curriculum vitae styles **/
+
+#Mycv {
+    background-color: #fff;
+    position: relative;
+}
+#Header-cv{
+    position: relative;
+    height: 500px;
+    width: 100%;
+
+}
+.headcv {
+    position: absolute;
+    padding: 15px;
+    margin-top: 15px;
+
+
+}
+.heading-img{
+    width: 25%;
+    height: 250px;
+    
+
+}
+.heading-text{
+    width: 70%;
+    right: 20px;
+    background-color: #f91111;
+    color: #fff;
+
+}
+
+
+#middle-content {
+    position: relative;
+    height: 700px;
+    margin-top: 100px;
+
+}
+
+#Address-content {
+    width: 25%;
+    position: absolute;
+
+      
+}
+
+ul.address {
+    line-height: 4;
+    list-style: none;
+}
+
+
+
+#Experience-content{
+    width: 65%;
+    right: 20px;
+    position: absolute;
+    
+    margin-left: 30px;
+    top: 0;
+}
+#Experience-content > ul {
+    line-height: 2;
+}
+
+
+#last-content{
+    position: relative;
+    height: 200vh;
+}
+.last > ul{
+    line-height: 2;
+    list-style: none;
+
+}
+
+#middle-2ndcontent{
+    width: 25%;
+    position: absolute;
+    margin: 10px;
+}
+
+#Experience-2content{
+    width: 65%;
+    right: 20px;
+    position: absolute;
+    margin-top: 100px;
+}
+#skill-divs > div{
+    width: 100%;
+    height: 6px;
+    background-color: #f91111;
+    margin-bottom: 50px;
+}
+
+
+/**** About Me Css*****/
+
+#About-contents{
+    height: 350vh;
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+}
+.About-img{
+    position: absolute;
+    margin-top: 150px;
+
+}
+#About-text {
+    position: absolute;
+    width: 90%;
+    right: 0;
+    margin-top: 150px;
+}
+.about-head1{
+    margin-top: 20px;
+    position: absolute;
+    left: 35%;
+}
